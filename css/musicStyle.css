@@ -68,7 +68,7 @@ h1{
 }
 
 .show1, .show2, .show3, .show4, .show5, .show6{
-    background-image: url("../images/BestOfSamples.jpg");
+    background-image: url("../images/BestOfSamples.JPG");
     background-size: 250px 250px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -86,7 +86,7 @@ p {
     height: 2em;
 }
 .show1{
-    background-image: url("../images/BestOfSamples.jpg");
+    background-image: url("../images/BestOfSamples.JPG");
 }
 .show1:hover, .show2:hover, .show3:hover, 
 .show4:hover, .show5:hover, .show6:hover{
