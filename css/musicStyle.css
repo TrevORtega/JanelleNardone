@@ -8,9 +8,9 @@ html {
 }
 /* Start Nav styling */
 .regNav{
+    background-image: linear-gradient(to right, white, rgb(0,255,255));
     display: flex;
     background-color: white;
-    height: 
     box-shadow: 5px 10px black;
 
 }
@@ -90,7 +90,6 @@ p {
 }
 .show1:hover, .show2:hover, .show3:hover, 
 .show4:hover, .show5:hover, .show6:hover{
-    background-image: url();
-    background-color: black;
+    background-image: url("../images/TrackList-12-14-19.png");
 }
 /* End playlist styling */
