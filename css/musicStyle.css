@@ -1,0 +1,96 @@
+html {
+    background-image: url("../images/studio.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+/* Start Nav styling */
+.regNav{
+    display: flex;
+    background-color: white;
+    height: 
+    box-shadow: 5px 10px black;
+
+}
+.regNav a{
+    margin-right: 1.5em;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+}
+.regNav a:hover{
+    cursor: pointer;
+    color: rgb(0, 255, 255);
+}
+/* End Nav styling */
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: 0;
+}
+
+/* Start playlist styling */
+.shows{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    overflow-y: scroll;
+}
+
+.listenBox{
+    display: flex;
+    border: 2px solid white;
+    height: 1.5em;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+}
+
+.listenBox a{
+    text-decoration: none;
+    color: white;
+}
+.listenBox a:hover{
+    cursor: pointer;
+}
+
+.show1, .show2, .show3, .show4, .show5, .show6{
+    background-image: url("../images/BestOfSamples.jpg");
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 10px;
+    display: flex;
+    width: 250px;
+    margin-right: 10%;
+    height: 300px;
+    justify-content: center;
+    color: white;
+}
+p {
+    margin-top: .5em;
+    margin-right: .5em;
+    height: 2em;
+}
+.show1{
+    background-image: url("../images/BestOfSamples.jpg");
+}
+.show1:hover, .show2:hover, .show3:hover, 
+.show4:hover, .show5:hover, .show6:hover{
+    background-image: url();
+    background-color: black;
+}
+/* End playlist styling */

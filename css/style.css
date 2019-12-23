@@ -1,0 +1,47 @@
+﻿html {
+    background-image: url("../images/beach.jpg");
+    height: 100%;
+    //background: rgb(2,0,36);
+    //background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(223,112,221,0.685459940652819) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.coverNav{
+    display: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 2em;
+}
+.coverNav a{
+    text-decoration: none;
+    color: black;
+}
+.coverNav a:hover{
+    cursor: pointer;
+    color: white;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    text-align: center; 
+    font-size: 4em;
+    text-shadow: 2px 2px 0 white;
+}
+h3 {
+    text-align: center;
+}
