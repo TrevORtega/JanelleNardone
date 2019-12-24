@@ -11,7 +11,6 @@ html {
     background-image: linear-gradient(to right, white, rgb(0,255,255));
     display: flex;
     background-color: white;
-    box-shadow: 5px 10px black;
 
 }
 .regNav a{
@@ -46,7 +45,6 @@ h1{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 10px;
-    overflow-y: scroll;
 }
 
 .listenBox{
@@ -93,3 +91,7 @@ p {
     background-image: url("../images/TrackList-12-14-19.png");
 }
 /* End playlist styling */
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
