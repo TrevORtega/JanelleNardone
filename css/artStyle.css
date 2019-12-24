@@ -1,3 +1,9 @@
+html{
+    background-image: url("../images/artBackground.webp");
+    background-size: cover;
+    height: 100%;
+}
+
 /* Start Nav styling */
 .regNav{
     background-image: linear-gradient(to right, white, rgb(0,255,255));
@@ -19,7 +25,8 @@
 
 h1 {
     text-align: center;
-    color: rgb(0, 255, 255);
+    color: white;
+    text-shadow: -1px 0 rgb(0, 255, 255), 0 1px rgb(0, 255, 255), 1px 0 rgb(0, 255, 255), 0 -1px rgb(0, 255, 255);
     font-size: 4em;
 }
 

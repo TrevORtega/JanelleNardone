@@ -1,0 +1,68 @@
+html{
+    background-color: #FF99CC;
+    height: 100%;
+}
+
+/* Start Nav styling */
+.regNav{
+    background-image: linear-gradient(to right, white, rgb(0,255,255));
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin-top: 1px;
+
+}
+.regNav a{
+    margin-right: 1.5em;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+}
+.regNav a:hover{
+    cursor: pointer;
+    color: rgb(0, 255, 255);
+}
+/* End Nav styling */
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Start header styling */
+.aboutContainer{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 40%;
+    width: 70%;
+    box-shadow: 5px 10px 8px 2px black;
+    border-radius: 10px;
+}
+.headShot{
+    background-image: url("../images/Janelle.JPEG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 2px solid rgb(0, 255, 255);
+    height: 80%;
+    width: 50%;
+}
+.aboutText{
+    width: 40%;
+}
+p{
+    font-size: 2.2vw;
+}
+/* End header styling */
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-top: 10px;
+    text-align: center;
+    transform: translate(-75px);
+}
