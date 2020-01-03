@@ -92,14 +92,14 @@ p {
     background-image: url("../images/BestOfSamples.JPG");
 }
 .show2{
-    background-image: url("../images/JanelleTakesOver.PNG");
+    background-image: url("../images/JanelleTakesOver.png");
 }
 .show1:hover, .show2:hover, .show3:hover, 
 .show4:hover, .show5:hover, .show6:hover{
     background-image: url("../images/TrackList-12-14-19.png");
 }
 .show2:hover{
-    background-image: url("../images/minnie.PNG");
+    background-image: url("../images/minnie.png");
 }
 /* End playlist styling */
 footer{
