@@ -42,7 +42,7 @@ h1{
 
 /* Start playlist styling */
 .shows{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.0);
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@ h1{
     background-position: bottom;
     margin-top: 10px;
     display: flex;
-    width: 250px;
+    width: 300px;
     margin-right: 10%;
     height: 300px;
     justify-content: center;
@@ -84,9 +84,11 @@ h1{
     padding-top: 5px;
 }
 p {
-    margin-top: .5em;
+    margin-top: .3em;
     margin-right: .5em;
-    height: 2em;
+    height: 2.2em;
+    width: 75%;
+    overflow-y: auto;
 }
 .show1{
     background-image: url("../images/BestOfSamples.JPG");
